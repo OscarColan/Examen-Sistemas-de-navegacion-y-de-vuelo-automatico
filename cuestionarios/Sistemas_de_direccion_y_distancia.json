@@ -1,0 +1,92 @@
+[
+  {
+    "texto": "En el sistema VOR convencional (CVOR), la determinación del radial se basa en la comparación de dos señales de 30 Hz: una de referencia y otra variable. ¿Qué elemento específico de la estación terrestre CVOR es responsable de generar la señal variable de 30 Hz cuya fase cambia progresivamente con el azimut?",
+    "opciones": [
+      "Un transceptor de pulso que mide el tiempo de retardo.",
+      "Un conjunto de antenas radiantes que giran mecánicamente o simulan una rotación.",
+      "Un modulador de fase que altera la señal de forma aleatoria."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "El sistema VOR Doppler (DVOR) fue desarrollado para mitigar un problema fundamental del CVOR. ¿Qué error particular de propagación es significativamente reducido en el DVOR, y cómo lo logra su principio de funcionamiento?",
+    "opciones": [
+      "El efecto noche; al operar en una banda de frecuencia diferente.",
+      "Los errores debidos a reflexiones de la señal por el terreno o edificios cercanos; al utilizar el desplazamiento Doppler de la señal para la determinación del radial.",
+      "Los errores de histéresis del equipo a bordo; mediante el uso de algoritmos de corrección digital."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Para el sistema VOR, ¿cuál es la implicación principal de que el transmisor VOR emita una señal de modulación en amplitud (AM) para ambas señales (referencia y variable)?",
+    "opciones": [
+      "Reduce la potencia de transmisión necesaria en comparación con otros tipos de modulación.",
+      "Permite que un receptor estándar de AM pueda decodificar la información de fase para determinar el radial.",
+      "Mejora la resistencia de la señal a la interferencia por ruido atmosférico."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "En un sistema VOR/DME combinado, el texto menciona que el canal del DME se asocia automáticamente al canal VOR seleccionado por el piloto. ¿Qué organismo internacional es responsable de esta asignación estandarizada de frecuencias y cómo facilita esto la operación de la tripulación?",
+    "opciones": [
+      "La Asociación de Transporte Aéreo Internacional (IATA); facilita la coordinación de rutas.",
+      "La Organización de Aviación Civil Internacional (OACI); simplifica la selección de frecuencias y reduce errores.",
+      "La Unión Internacional de Telecomunicaciones (UIT); asegura la compatibilidad electromagnética global."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "El Sistema DME (Equipo Medidor de Distancia) opera midiendo el tiempo de viaje de pulsos de radio. Si la aeronave está volando a gran altura sobre una estación DME, ¿qué tipo de error puede producirse en la distancia indicada, y por qué el receptor a bordo realiza una corrección automática para mitigar este error?",
+    "opciones": [
+      "Error de paralaje; la corrección se realiza porque la señal se refleja en la ionosfera.",
+      "Error de altura (slant range); la corrección se realiza para aproximar la distancia horizontal real.",
+      "Error de velocidad; la corrección se realiza por el efecto Doppler."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Un componente clave del equipo DME a bordo es el \"Procesador (Ranging unit)\". ¿Cuál es la función específica de este procesador en la determinación de la distancia, y qué principio matemático fundamental utiliza para ello?",
+    "opciones": [
+      "Calcula la diferencia de fase entre la señal transmitida y recibida; utiliza el teorema de Pitágoras.",
+      "Mide el intervalo temporal entre la transmisión de un pulso de interrogación y la recepción de la respuesta; utiliza la velocidad de propagación de las ondas electromagnéticas.",
+      "Analiza la intensidad de la señal recibida; utiliza la ley de atenuación de la señal."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "El texto menciona que las estaciones terrestres VOR pueden ser \"de área terminal, de baja altitud o de alta altitud\". ¿Cuál es la principal distinción operacional entre una estación VOR de baja altitud y una de alta altitud, en términos de su cobertura y propósito en la red de navegación aérea?",
+    "opciones": [
+      "Las de baja altitud tienen mayor potencia de transmisión, mientras que las de alta altitud cubren distancias cortas.",
+      "Las de baja altitud se usan para aproximaciones, mientras que las de alta altitud se utilizan para la navegación en ruta a grandes distancias.",
+      "Las de baja altitud transmiten solo la señal de referencia, mientras que las de alta altitud transmiten ambas señales."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "En el receptor VOR a bordo, la \"Unidad de presentación\" muestra el radial VOR y la desviación del curso. ¿Qué característica fundamental de esta presentación permite al piloto determinar si necesita girar a la izquierda o a la derecha para interceptar el radial deseado?",
+    "opciones": [
+      "Un contador digital que muestra el número de grados de desvío.",
+      "Una aguja de desviación de curso que se mueve hacia el lado del radial donde se encuentra el avión con respecto al curso seleccionado.",
+      "Una representación gráfica de la aeronave en un mapa en movimiento."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "¿Cuál es la función específica de la \"Unidad transmisora (TX)\" en la estación terrestre DME, y por qué su capacidad de respuesta es crítica para el rendimiento del sistema?",
+    "opciones": [
+      "Genera las señales de interrogación que buscan las aeronaves.",
+      "Recibe los pulsos de interrogación de la aeronave y emite los pulsos de respuesta.",
+      "Emite una señal de referencia continua para la sincronización de las aeronaves."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "El DVOR utiliza un método innovador para generar la señal variable. En lugar de una antena rotatoria física, ¿cómo logra el DVOR simular la rotación de la fuente de la señal variable de 30 Hz que el receptor a bordo interpreta para determinar el azimut?",
+    "opciones": [
+      "Mediante la modulación de frecuencia de la señal portadora para cada antena individual en un anillo.",
+      "Activando secuencialmente un conjunto de antenas omnidireccionales dispuestas en un círculo, creando un efecto Doppler sintético.",
+      "Utilizando un único transductor piezoeléctrico que vibra a 30 Hz para generar la señal."
+    ],
+    "correcta": 1
+  }
+]

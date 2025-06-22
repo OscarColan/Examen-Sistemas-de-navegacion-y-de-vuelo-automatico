@@ -1,0 +1,95 @@
+[
+  {
+    "texto": "En el contexto de la propagación de ondas de radio, ¿qué fenómeno se describe como la alteración gradual de la dirección de una onda al pasar de un medio a otro con diferente densidad, afectando la propagación a larga distancia, especialmente para las ondas ionosféricas?",
+    "opciones": [
+      
+      "Refracción, por el cambio en la velocidad de la onda.",
+      "Difracción, debido a la curvatura de objetos.",
+      "Reflexión, al incidir sobre una superficie."
+    ],
+    "correcta": 0
+  },
+  {
+    "texto": "La Serie de Fourier permite descomponer una señal compleja en sus componentes de frecuencia. Si una onda cuadrada perfecta se descompone usando esta serie, ¿qué tipo de armónicos específicos se espera encontrar en su espectro de frecuencias, y qué implica esto para su ancho de banda ideal?",
+    "opciones": [
+      "Todos los armónicos (pares e impares), lo que implica un ancho de banda limitado.",
+      "Solo armónicos pares, lo que implica un ancho de banda finito.",
+      "Solo armónicos impares, lo que implica un ancho de banda infinito."
+      
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "En la Modulación en Amplitud de Cuadratura (QAM), la información se codifica variando tanto la amplitud como la fase de la onda portadora. ¿Cuál es la ventaja principal de QAM sobre la modulación de amplitud (AM) o la modulación de frecuencia (FM) en términos de eficiencia espectral?",
+    "opciones": [
+      "Requiere menos potencia para transmitir la misma cantidad de información.",
+      "Permite transmitir más bits por Hertz (mayor eficiencia espectral) al usar dos portadoras en cuadratura.",
+      "Es más resistente al ruido y las interferencias atmosféricas."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Al estudiar los parámetros de una antena, la eficiencia de radiación se define como la relación entre la potencia radiada y la potencia de entrada. ¿Qué factores primarios contribuyen a que esta eficiencia no sea del 100%?",
+    "opciones": [
+      "Las pérdidas por difracción y refracción en el entorno.",      
+      "Las pérdidas por el efecto Doppler y la absorción atmosférica.",
+      "Las pérdidas óhmicas y las pérdidas por desadaptación en la entrada de la antena."
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Respecto al efecto Doppler en las ondas de radio, ¿qué se observa en la frecuencia de una señal recibida cuando una aeronave (la fuente) se mueve directamente hacia un receptor estacionario, y qué aplicación práctica tiene este fenómeno en la aviación?",
+    "opciones": [
+      "La frecuencia recibida aumenta; se utiliza en sistemas de navegación y radar para medir la velocidad relativa.",
+      "La frecuencia recibida disminuye; se utiliza para el control de altitud.",
+      "La frecuencia recibida permanece constante; se utiliza para la sincronización de comunicaciones."
+    ],
+    "correcta": 0
+  },
+  {
+    "texto": "En un array planar de antenas, el factor de array (AF) se calcula considerando dos diferencias de fase progresivas (αx y αy). ¿Qué permite esta capacidad de controlar independientemente las fases en los ejes X e Y en un array, y qué tipo de aplicación avanzada existe para ello?",
+    "opciones": [
+      "Simplifica el diseño mecánico de la antena.",
+      "Permite apuntar el haz de radiación en cualquier dirección dentro del plano, útil en radares de seguimiento.",
+      "Reduce el consumo de energía del sistema de transmisión."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Las antenas de polarización circular se describen como ventajosas en situaciones donde la orientación de las antenas transmisora y receptora puede variar, o en entornos con múltiples reflexiones. ¿Qué característica fundamental de estas ondas evita la \"pérdida por desadaptación de polarización\" en tales escenarios?",
+    "opciones": [
+      "Su capacidad para concentrar toda la energía en un solo plano.",
+      "Su campo eléctrico rota continuamente, asegurando que siempre habrá un componente alineado con la antena receptora.",
+      "Su insensibilidad a la presencia de obstáculos en la trayectoria."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "En las ondas electromagnéticas, los campos eléctrico (E) y magnético (B) oscilan perpendicularmente entre sí y a la dirección de propagación. ¿Qué relación fundamental existe entre la magnitud de estos campos y la impedancia intrínseca del medio por el que se propaga la onda?",
+    "opciones": [
+      "La relación |B| / |E| es igual a la impedancia intrínseca del medio.",
+      "La relación |B| / |E| es directamente proporcional a la conductividad del medio.",
+      "La relación |B| / |E| es inversamente proporcional a la velocidad de la luz en el vacío."
+    ],
+    "correcta": 0
+  },
+  {
+    "texto": "La modulación en frecuencia (FM) se caracteriza por variar la frecuencia de la portadora según la señal moduladora, manteniendo la amplitud constante. ¿Cuál es una ventaja clave de FM sobre AM en términos de calidad de la señal y resistencia al ruido?",
+    "opciones": [
+      "FM requiere un ancho de banda significativamente menor.",
+      "La información en FM está codificada en las variaciones de frecuencia, lo que la hace menos susceptible al ruido que afecta principalmente la amplitud.",
+      "Permite una mayor potencia de transmisión sin distorsión."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "En este bloque se menciona que el modelo de \"propagación en espacio libre\" es una aproximación ideal para la pérdida de trayectoria. ¿Qué condiciones ideales deben cumplirse para que este modelo sea una representación precisa de la propagación de una onda de radio entre un transmisor y un receptor?",
+    "opciones": [
+      "Presencia de múltiples obstáculos reflectantes y una atmósfera ionizada.",
+      "Ausencia de obstáculos, un camino de línea de vista directa y ausencia de efectos atmosféricos significativos.",
+      "Altas frecuencias de operación y antenas omnidireccionales en ambos extremos."
+    ],
+    "correcta": 1
+  }
+]
+

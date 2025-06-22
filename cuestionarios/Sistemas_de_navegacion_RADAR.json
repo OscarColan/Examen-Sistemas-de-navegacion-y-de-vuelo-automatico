@@ -1,0 +1,93 @@
+[
+{
+        "texto": "En el Radar Doppler, la frecuencia del eco recibido es diferente a la frecuencia transmitida debido al movimiento relativo entre el radar y el objetivo. Si un radar transmite una señal con una longitud de onda específica, ¿qué parámetro se puede determinar directamente a partir de la magnitud de esta diferencia de frecuencia (desplazamiento Doppler), y cómo afecta la dirección del movimiento a este parámetro?",
+        "opciones": [
+            "La distancia exacta al objetivo; la dirección de movimiento invierte el signo de la diferencia de frecuencia.",
+            "La velocidad relativa del objetivo; la dirección de movimiento determina si la frecuencia aumenta o disminuye.",
+            "La altitud del objetivo; la dirección de movimiento no afecta la magnitud del desplazamiento Doppler."
+        ],
+        "correcta": 1
+},
+{
+        "texto": "La Ecuación del Radar (Pr = (Pt * Gt * Gr * λ^2 * σ) / ((4π)^3 * R^4)) relaciona la potencia recibida (Pr) con varios factores. Si se duplica la distancia (R) entre el radar y el objetivo, ¿cómo se ve afectada la potencia recibida (Pr), asumiendo que todos los demás parámetros permanecen constantes?",
+        "opciones": [
+            "La potencia recibida se reduce a la mitad.",
+            "La potencia recibida se reduce a un dieciseisavo (1/16) de su valor original.",
+            "La potencia recibida se reduce a un cuarto (1/4) de su valor original."
+        ],
+        "correcta": 1
+},
+{
+        "texto": "El Radar Meteorológico funciona basándose en la reflexión de ondas electromagnéticas por partículas de precipitación. Además de la intensidad de la precipitación, ¿qué otro fenómeno meteorológico crucial puede detectarse mediante el análisis del desplazamiento Doppler de la señal, y qué aplicación tiene esto para la seguridad aérea?",
+        "opciones": [
+            "La densidad de la niebla; permite la determinación precisa de la visibilidad horizontal.",
+            "La cizalladura del viento (wind shear) y las turbulencias; fundamental para evitar zonas peligrosas.",
+            "La temperatura de las nubes; ayuda a predecir la formación de hielo en el avión."
+        ],
+        "correcta": 1
+},
+{
+        "texto": "El Radioaltímetro se diferencia fundamentalmente de un altímetro barométrico en su principio de funcionamiento. ¿Qué mide directamente el radioaltímetro para determinar la altitud, y cómo se ve afectada su precisión en el terreno montañoso o irregular?",
+        "opciones": [
+            "La presión estática del aire; su precisión disminuye en terrenos irregulares.",
+            "El tiempo de viaje de un pulso de radio entre la aeronave y el terreno; su precisión es la distancia real al terreno directamente debajo.",
+            "La fase de una onda de radio reflejada en la ionosfera; su precisión es afectada por las variaciones ionosféricas."
+        ],
+        "correcta": 1
+},
+{
+        "texto": "El Radar Primario de Vigilancia (PSR) detecta aeronaves al emitir un pulso y escuchar el eco reflejado. ¿Cuál es una limitación inherente del PSR que lo llevó al desarrollo de radares secundarios, y cómo afecta esta limitación a la identificación de aeronaves?",
+        "opciones": [
+            "No puede determinar la altitud de la aeronave; requiere otra fuente de datos de altitud.",
+            "Solo puede detectar aeronaves equipadas con un transpondedor; no detecta aeronaves sin él.",
+            "No puede identificar la aeronave (solo su posición y distancia); dificulta el control de tráfico aéreo."
+        ],
+        "correcta": 2
+},
+{
+        "texto": "El Radar Secundario de Vigilancia (SSR) opera mediante un sistema de interrogación-respuesta con transpondedores a bordo de las aeronaves. ¿Cuál es el formato de la respuesta estándar del transpondedor (Modo A/C) y qué información clave proporciona esta respuesta al radar?",
+        "opciones": [
+            "Una ráfaga de pulsos codificada con la matrícula de la aeronave y la velocidad aerodinámica.",
+            "Una ráfaga de pulsos codificada con la identidad de la aeronave (código squawk) y la altitud de presión.",
+            "Una señal continua modulada en frecuencia con la ruta de vuelo planificada."
+        ],
+        "correcta": 1
+},
+{
+        "texto": "El Modo S del SSR introduce capacidades mejoradas sobre los modos A/C. ¿Qué avance fundamental permite el Modo S, relacionado con la selectividad de interrogación, y cómo contribuye esto a la eficiencia del espectro y la reducción de las \"respuestas garbled\" (distorsionadas)?",
+        "opciones": [
+            "Permite interrogar a todas las aeronaves simultáneamente, aumentando el tráfico detectable.",
+            "Permite interrogar a aeronaves individuales de forma selectiva usando su dirección única, reduciendo las interrogaciones innecesarias y las colisiones de respuestas.",
+            "Utiliza una frecuencia de interrogación variable para cada aeronave, evitando la superposición de señales."
+        ],
+        "correcta": 1
+},
+{
+        "texto": "El TCAS (Traffic Collision Avoidance System) es un sistema de vigilancia aire-aire que complementa al control de tráfico aéreo. ¿Cuál es la limitación principal de las instrucciones de maniobra generadas por TCAS II (la versión más común), y por qué esta limitación es inherente a su diseño para la prevención de colisiones?",
+        "opciones": [
+            "Solo puede generar instrucciones de maniobra horizontales; para evitar colisiones frontales.",
+            "Solo puede generar instrucciones de maniobra verticales; para asegurar la separación en el plano de altitud.",
+            "Solo puede generar instrucciones de maniobra de velocidad; para acelerar o decelerar la aeronave."
+        ],
+        "correcta": 1
+},
+{
+        "texto": "En el TCAS, las aeronaves identificadas como posibles riesgos se muestran en pantalla con símbolos codificados. ¿Qué información adicional crucial se presenta junto a estos símbolos para ayudar a la tripulación a evaluar rápidamente la amenaza?",
+        "opciones": [
+            "El tipo de aeronave (ej. avión de pasajeros, carguero) y su aeródromo de origen.",
+            "Un indicador de altitud relativa (en cientos de pies) y una flecha que señala si el intruso está ascendiendo o descendiendo.",
+            "La marca y modelo de la aeronave intrusa y su configuración de flaps."
+        ],
+        "correcta": 1
+},
+{
+        "texto": "El Principio de Funcionamiento del Radioaltímetro se basa en la emisión de pulsos de radio. Si la aeronave está volando a una altitud muy baja, ¿qué característica del pulso reflejado es crítica para que el sistema calcule la altitud con precisión a pesar del corto tiempo de viaje?",
+        "opciones": [
+            "La potencia del pulso debe ser extremadamente alta para asegurar la detección.",
+            "La duración del pulso debe ser muy corta para permitir una discriminación precisa entre la transmisión y la recepción en tiempos muy breves.",
+            "La frecuencia del pulso debe ser extremadamente baja para evitar la absorción atmosférica."
+        ],
+        "correcta": 1
+}
+]
+

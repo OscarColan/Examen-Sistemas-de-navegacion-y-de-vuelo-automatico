@@ -1,0 +1,92 @@
+[
+  {
+    "texto": "El principio de funcionamiento del GNSS se basa en la medición precisa del tiempo. ¿Qué fenómeno físico fundamental permite a un receptor GNSS calcular su distancia a un satélite midiendo el tiempo de viaje de la señal, y qué componente del sistema es crucial para asegurar la coherencia temporal de las señales?",
+    "opciones": [
+      "El efecto Doppler, que altera la frecuencia de la señal; los relojes internos del receptor.",
+      "La velocidad constante de la luz en el vacío; los relojes atómicos de alta precisión a bordo de los satélites.",
+      "La dispersión de la señal por la atmósfera; el algoritmo de corrección del receptor."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "La Dilución de Precisión (DOP) es un factor crucial en la calidad de la posición GNSS. ¿Qué configuración geométrica de los satélites con respecto al receptor resulta en una baja DOP y, por lo tanto, una mayor precisión en la solución de posición?",
+    "opciones": [
+      "Satélites agrupados muy cerca en el cielo, directamente sobre el receptor.",
+      "Satélites distribuidos uniformemente por todo el cielo visible, cubriendo un amplio ángulo.",
+      "Satélites alineados en una única línea recta desde el horizonte hasta el cenit."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Además de los errores de reloj y orbitales, ¿cuál es una de las principales fuentes de error en los sistemas GNSS que se origina en la atmósfera terrestre y varía significativamente con las condiciones meteorológicas y la actividad solar?",
+    "opciones": [
+      "El ruido térmico generado por los componentes electrónicos del receptor.",
+      "Los errores de propagación troposféricos y ionosféricos.",
+      "Las interferencias de señales de radiofrecuencia (RFI) de otros sistemas."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "El sistema SBAS (Satellite-Based Augmentation System) proporciona correcciones a los usuarios de GNSS. ¿Cómo se transmiten estas correcciones desde las estaciones terrestres SBAS a los usuarios, y qué tipo de información incluyen para mejorar la precisión y la integridad de la señal GNSS?",
+    "opciones": [
+      "Mediante enlaces de microondas terrestres directos; incluyen datos de posición precisos de cada satélite.",
+      "A través de satélites geoestacionarios (GEO) que retransmiten las correcciones a los usuarios; incluyen correcciones de errores y mensajes de integridad.",
+      "Por medio de una red de repetidores terrestres; incluyen datos de efemérides en tiempo real."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "El GBAS (Ground-Based Augmentation System), a diferencia del SBAS, utiliza estaciones terrestres próximas al aeropuerto para transmitir correcciones. ¿Qué ventaja fundamental ofrece GBAS sobre SBAS en términos de precisión y latencia, y para qué fase del vuelo es especialmente útil?",
+    "opciones": [
+      "Mayor cobertura geográfica y menor dependencia de la infraestructura local; útil para navegación en ruta.",
+      "Mayor precisión y menor latencia debido a la proximidad de la fuente de corrección; especialmente útil para aproximaciones y aterrizajes de precisión.",
+      "Menor susceptibilidad a los errores ionosféricos; útil para vuelos transoceánicos."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Un componente clave del GNSS es el Segmento de Control. ¿Cuál es la función principal de este segmento y por qué su monitoreo constante de los satélites es vital para la precisión y fiabilidad del sistema GNSS global?",
+    "opciones": [
+      "Recibir y procesar las señales de los usuarios finales para calcular su posición.",
+      "Monitorear la salud de los satélites, sus órbitas y la hora a bordo, y subir nuevas efemérides y correcciones.",
+      "Desarrollar y fabricar nuevos satélites para reemplazar los obsoletos."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "¿Qué tipo de ambigüedad fundamental debe resolver un receptor GNSS al medir el tiempo de viaje de la señal, y cómo se resuelve esta ambigüedad mediante el uso de múltiples satélites?",
+    "opciones": [
+      "La ambigüedad de la frecuencia de la portadora; se resuelve promediando las señales de tres satélites.",
+      "La ambigüedad de si el tiempo de viaje es un múltiplo exacto del período de la señal; se resuelve utilizando señales de al menos cuatro satélites y resolviendo ecuaciones no lineales.",
+      "La ambigüedad de la fase de la señal recibida; se resuelve mediante el uso de algoritmos de inteligencia artificial."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "En este bloque se menciona que los sistemas de aumentación GNSS buscan mejorar la precisión, integridad y disponibilidad. ¿Qué concepto de integridad se refiere a la capacidad del sistema para detectar y notificar al usuario cuando la información de posición ya no es fiable?",
+    "opciones": [
+      "Precisión horizontal (HPL).",
+      "Nivel de confianza (Confidence Level).",
+      "Alerta de fallo del sistema (System Failure Alert)."
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "¿Cuál es la función específica de los \"relojes de rubidio o cesio\" a bordo de los satélites GNSS, y por qué son indispensables para el principio de funcionamiento del sistema de posicionamiento?",
+    "opciones": [
+      "Producir la potencia necesaria para la transmisión de la señal.",
+      "Generar y mantener el tiempo extremadamente preciso de las señales transmitidas, lo cual es la base para el cálculo de distancias por parte de los receptores.",
+      "Controlar la orientación y la órbita del satélite en el espacio."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "La constelación GPS (NAVSTAR GPS) se compone de múltiples satélites en órbitas semisinusoidales. ¿Qué ventaja operacional fundamental ofrece esta distribución orbital para un receptor en cualquier punto de la Tierra, en comparación con una constelación de satélites geoestacionarios?",
+    "opciones": [
+      "Permite una cobertura global continua, asegurando que al menos cuatro satélites sean visibles desde cualquier ubicación en todo momento.",
+      "Reduce los errores de propagación ionosféricos al mantener los satélites a una altitud constante sobre el ecuador.",
+      "Ofrece una mayor potencia de señal en el ecuador, mejorando la recepción en esa región."
+    ],
+    "correcta": 0
+  }
+]

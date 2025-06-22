@@ -1,0 +1,62 @@
+[
+  {
+    "texto": "¿Que se entiende por ''atmosfera estandar''?",
+    "opciones": ["La atmósfera estándar es una referencia utilizada en aeronáutica que considera condiciones ideales de temperatura, presión y densidad a diferentes altitudes.", "La atmósfera estándar es el estado de la atmósfera en condiciones de alta presión y baja temperatura, típicamente en la superficie del mar.", " La atmósfera estándar se refiere a la cantidad de vapor de agua en el aire, que se considera constante en todas las altitudes."],
+    "correcta": 0
+  },
+  {
+    "texto": "¿Qué efecto tiene una reducción en la presión atmosférica en la altitud indicada en un avión?",
+    "opciones": ["La altitud indicada aumentará.", "La altitud indicada disminuirá.", "No habrá efecto en la altitud indicada"],
+    "correcta": 0
+  },
+  {
+    "texto": "¿Qué mide la sonda de presión estática?",
+    "opciones": ["La presión total del aire.", "El aumento de presión debido a la velocidad relativa del avión.", "La presión atmosférica circundante"],
+    "correcta": 2
+  },
+  {
+    "texto": "En el contexto de la altimetría, el servoaltímetro se describe como un instrumento que combina características digitales y analógicas. ¿Cuál es el principal beneficio que esta combinación aporta en comparación con un altímetro aneroide puramente mecánico?",
+    "opciones": ["Elimina completamente todos los errores de presión y temperatura.", "Permite una indicación más precisa y versátil al utilizar tanto el tambor digital como las agujas circulares.", "Reduce el consumo de energía eléctrica del sistema de datos de aire."],
+    "correcta": 1
+  },  
+  {
+    "texto": "El Indicador de Velocidad Vertical (VSI) funciona con presión estática, pero su mecanismo difiere del altímetro en un aspecto clave. ¿Cuál es la función específica de la \"fuga calibrada\" (capilar) en la caja del VSI que permite la indicación de la velocidad de ascenso/descenso?",
+    "opciones": [" Proporcionar una referencia constante de presión atmosférica a nivel del mar.", "Crear un diferencial de presión con el diafragma que reacciona a la velocidad del cambio de altitud.", "Compensar las variaciones de temperatura dentro de la cabina de la aeronave."],
+    "correcta": 2
+  },
+  {
+    "texto": "El Indicador de Velocidad Aerodinámica (ASI) es un instrumento diferencial que mide la presión dinámica. ¿Qué correcciones se aplican progresivamente a la Velocidad Indicada (IAS) para obtener primero la Velocidad Calibrada (CAS) y luego la Velocidad Verdadera (TAS)?",
+    "opciones": ["IAS se corrige por densidad para obtener CAS, y luego por altitud para obtener TAS.", " IAS se corrige por errores de instrumento y posición para obtener CAS, y luego CAS se corrige por densidad del aire para obtener TAS.", "IAS se corrige por compresibilidad para obtener CAS, y luego CAS se corrige por humedad para obtener TAS."],
+    "correcta": 1
+  },
+  {
+    "texto": "El número de Mach se define por la relación entre la velocidad de la aeronave y la velocidad del sonido local. ¿Cuál es la única variable atmosférica que directamente influye en la velocidad del sonido local, y por ende, en la precisión del indicador de Mach?",
+    "opciones": ["La presión barométrica ambiente.", "La densidad del aire.", "La temperatura del aire exterior."],
+    "correcta": 2
+  },
+  {
+    "texto": "El \"error de retardo\" es una característica del VSI. ¿En qué situación específica se hace más notorio este error y qué implicación tiene para la respuesta inmediata del instrumento?",
+    "opciones": ["Es más notorio durante vuelos nivelados prolongados y significa que el instrumento se sobrecalienta.", "Es más notorio después de un cambio brusco de altitud y significa que el instrumento no reacciona de forma instantánea, mostrando la lectura con un decalaje temporal.", "Es más notorio a grandes altitudes y se debe a la baja densidad del aire."],
+    "correcta": 1
+  },
+  {
+    "texto": "¿Cuál es la principal razón por la que un indicador de Mach se considera esencial en aeronaves de alta velocidad, más allá de la mera información de la velocidad de Mach alcanzada?",
+    "opciones": ["Permite al piloto calcular con precisión el punto de consumo mínimo de combustible.", "Ayuda al piloto a evitar el peligro de la formación de ondas de choque (shock waves) que pueden afectar la estructura de la aeronave.", "Es crucial para la operación de los sistemas de deshielo en las alas."],
+    "correcta": 1
+  },
+  {
+    "texto": "¿Qué consecuencia inmediata puede tener una discrepancia detectada entre las múltiples ADC de una aeronave, según lo descrito en el documento?",
+    "opciones": ["Se activa un sistema de apagado de emergencia de los motores.", "El sistema avisa al piloto o, de forma automática, cambia su modo de funcionamiento.", "Se desactiva el piloto automático de forma irrevocable."],
+    "correcta": 1
+  }
+]
+
+
+
+
+
+
+
+
+
+

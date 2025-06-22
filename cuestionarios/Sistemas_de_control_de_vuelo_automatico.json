@@ -1,0 +1,92 @@
+[
+  {
+    "texto": "En la evolución de los sistemas de control de vuelo, se describe la transición de sistemas mecánicos y manuales a los fly-by-wire. ¿Qué ventaja fundamental de los sistemas fly-by-wire se destaca en términos de la interacción del piloto con las superficies de control y la gestión de las cargas de vuelo?",
+    "opciones": [
+      "Permiten al piloto sentir directamente las cargas aerodinámicas en los mandos de control.",
+      "Sustituyen las conexiones mecánicas directas por señales eléctricas, reduciendo el peso y facilitando la integración de controles automáticos y de protección.",
+      "Requieren un menor número de actuadores hidráulicos en las superficies de control."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Los sistemas de control de vuelo automático (piloto automático) utilizan bucles de retroalimentación para mantener el avión en el estado deseado. En un bucle de control de actitud, ¿qué información primaria es necesaria para el comparador, y qué acción genera si existe una diferencia entre el estado real y el deseado?",
+    "opciones": [
+      "El ángulo de ataque y la velocidad del aire; genera una corrección del empuje del motor.",
+      "La actitud actual del avión (determinada por el sistema de referencia) y la actitud deseada; genera una señal de error para los actuadores de superficie de control.",
+      "La altitud barométrica y la temperatura exterior; genera una señal para ajustar la presión de la cabina."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "En un sistema de empuje automático (Autothrust/Autothrottle), ¿cuál es la función principal del \"servomecanismo\" en el bucle de control, y cómo se relaciona con la posición física de las palancas de empuje en la cabina?",
+    "opciones": [
+      "Calcula la potencia óptima del motor y muestra el valor al piloto sin mover las palancas.",
+      "Mueve físicamente las palancas de empuje en la cabina para ajustar la potencia del motor según las órdenes del controlador electrónico.",
+      "Solo monitoriza la posición de las palancas, pero el ajuste de potencia se realiza de forma manual."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Para un aterrizaje automático ILS CAT III, ¿qué capacidad crítica debe tener el sistema de control de vuelo automático, más allá del guiado lateral y vertical, para completar la maniobra hasta la detención en la pista?",
+    "opciones": [
+      "La capacidad de comunicarse directamente con el control de tráfico aéreo para recibir autorizaciones de aterrizaje.",
+      "La capacidad de guiar el avión a lo largo de la pista después del toque, incluyendo el frenado y el control direccional.",
+      "La capacidad de desplegar el tren de aterrizaje automáticamente sin intervención del piloto."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Los Sistemas de Gestión de Vuelo (FMS) procesan una gran cantidad de datos para optimizar la trayectoria de vuelo. ¿Qué tipo de \"costo\" calcula y optimiza el FMS para diferentes fases del vuelo, y cómo impacta esto en la eficiencia operacional?",
+    "opciones": [
+      "El costo de las tasas de aterrizaje y despegue en los aeropuertos.",
+      "El costo del tiempo del personal de vuelo y mantenimiento.",
+      "El \"costo de operación\" (cost index), balanceando el costo de combustible y el costo de tiempo para lograr la mayor eficiencia económica."
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "En la lógica de prioridades de un sistema de vuelo automático gestionado, ¿qué ocurre si hay una inconsistencia o fallo en una fuente de datos de sensores, y cómo se mantiene la continuidad del control de vuelo?",
+    "opciones": [
+      "El sistema entra inmediatamente en un modo de degradación total y transfiere el control manual al piloto.",
+      "El sistema da prioridad a la fuente redundante más confiable, manteniendo el control continuo del vuelo.",
+      "Se congela la última lectura válida hasta que el piloto intervenga y seleccione una nueva fuente."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "El FMS gestiona el perfil vertical de vuelo. ¿Qué tipo de \"restricciones\" puede integrar el FMS en la fase de descenso, y cómo estas restricciones contribuyen a una aproximación eficiente y segura?",
+    "opciones": [
+      "Restricciones de peso máximo al aterrizaje y balance de carga.",
+      "Restricciones de altitud y/o velocidad en puntos específicos de la trayectoria (ej. \"At or Above\", \"At or Below\"), para optimizar el consumo de combustible y cumplir con el ATC.",
+      "Restricciones de número de pasajeros y configuración de asientos."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "¿Qué es un \"controlador de modo\" en un sistema de control de vuelo automático, y cuál es su función principal en la interacción entre el piloto y los sistemas automatizados?",
+    "opciones": [
+      "Es el componente que ejecuta físicamente los movimientos de las superficies de control.",
+      "Es una interfaz que permite al piloto seleccionar y activar los diferentes modos de operación del piloto automático (ej. mantener altitud, rumbo, velocidad).",
+      "Es un sensor que mide la aceleración y la tasa de guiñada del avión."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "En la gestión energética del avión, ¿cómo se relaciona la lógica del FMS con el sistema autothrottle/autothrust en modos gestionados, y qué tiene prioridad en caso de intervención manual del piloto?",
+    "opciones": [
+      "El FMS calcula los niveles de potencia y los envía al autothrottle para aplicación automática, pero la desconexión manual del piloto tiene prioridad inmediata.",
+      "El autothrottle calcula de forma independiente la potencia, y el FMS solo la monitoriza.",
+      "El FMS solo proporciona datos al piloto, y las palancas de empuje siempre se manejan manualmente."
+    ],
+    "correcta": 0
+  },
+  {
+    "texto": "La \"superficie de control de los alerones\" tiene una función específica en el control de vuelo. ¿Qué tipo de movimiento de la aeronave controlan los alerones, y cómo logran este movimiento al actuar de forma diferencial?",
+    "opciones": [
+      "El cabeceo (pitch); actuando de forma simétrica para variar la sustentación total.",
+      "El alabeo (roll); actuando de forma diferencial (uno sube, el otro baja) para crear un momento de giro alrededor del eje longitudinal.",
+      "La guiñada (yaw); actuando de forma simétrica para generar resistencia aerodinámica."
+    ],
+    "correcta": 1
+  }
+]

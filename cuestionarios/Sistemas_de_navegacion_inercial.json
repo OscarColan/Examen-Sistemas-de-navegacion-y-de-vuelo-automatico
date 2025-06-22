@@ -1,0 +1,52 @@
+[
+  {
+    "texto": "¿Qué es la precesión en un giróscopo?",
+    "opciones": ["La tendencia a mantener su orientación.", "El movimiento del eje de giro en respuesta a un par aplicado perpendicularmente.", "El desgaste de los rodamientos"],
+    "correcta": 0
+  },
+  {
+    "texto": " ¿Cuál es una fuente de energía común para los giróscopos en aviación general?",
+    "opciones": ["Baterías de litio exclusivamente.", "Un sistema de vacío accionado por el motor.", "Energía nuclear a pequeña escala"],
+    "correcta": 1
+  },
+  {
+    "texto": "En un Giróscopo de Fibra Óptica (FOG), ¿qué parámetro se mide para determinar la velocidad de rotación?",
+    "opciones": ["La intensidad de la luz.", "El cambio de frecuencia de la luz.", "El desplazamiento de fase (&Delta &phi) entre los haces de luz."],
+    "correcta": 2
+  },
+  {
+    "texto": "En el contexto de los giróscopos mecánicos, ¿qué propiedad es crucial para el funcionamiento del indicador de tasa de giro y el piloto automático, permitiendo una respuesta rápida a los cambios de orientación durante el vuelo?",
+    "opciones": ["La rigidez en el espacio, que mantiene su eje de giro fijo independientemente de la rotación del soporte.", "La precesión, que es la capacidad de detectar y medir pequeños cambios en la orientación.", " La inercia rotacional, que se opone a cualquier cambio en su estado de movimiento."],
+    "correcta": 1
+  },
+  {
+    "texto": "Los giróscopos basados en tecnología MEMS utilizan la fuerza de Coriolis para medir el movimiento. ¿Qué técnica específica se emplea para convertir la vibración inducida por Coriolis en una señal eléctrica cuantificable?",
+    "opciones": ["La detección de cambios en la inductancia de bobinas magnéticas adyacentes a la masa oscilante.", "La medición de la resistencia eléctrica de materiales piezoresistivos deformados por la vibración.", "La detección de cambios en la capacitancia entre una masa móvil vibrante y placas sensoras fijas."],
+    "correcta": 2
+  },
+  {
+    "texto": "En los giróscopos ópticos de anillo (RLG), la diferencia de fase o frecuencia de los haces de luz contrarrotatorios se utiliza para detectar la rotación. ¿Qué fenómeno físico subyacente es directamente responsable de esta diferencia cuando el giróscopo experimenta rotación?",
+    "opciones": ["El efecto Doppler, que altera la frecuencia de la luz según la velocidad del espejo.", "El efecto Sagnac, que provoca una diferencia en la distancia o tiempo de recorrido de los haces en un bucle cerrado en rotación.", "El desplazamiento de fase (&Delta &phi) entre los haces de luz."],
+    "correcta": 2
+  },
+  {
+    "texto": "Respecto a las fuentes de energía para los giróscopos mecánicos, ¿cuál es la ventaja clave del sistema de aspiración de aire con bomba de vacío, especialmente en aeronaves antiguas, frente a la alimentación eléctrica directa?",
+    "opciones": ["Proporciona un control de velocidad más preciso del rotor.", "Mantiene la limpieza del aire dentro del instrumento, reduciendo el desgaste.", " Permite que los giróscopos sigan funcionando en caso de fallo eléctrico, utilizando la presión diferencial."],
+    "correcta": 2
+  },
+  {
+    "texto": "El Indicador de Dirección (Directional Gyro o DG) es un giróscopo de tres grados de libertad. Para mantener su indicación precisa durante un vuelo prolongado, ¿qué corrección manual es periódicamente necesaria debido a la deriva del giróscopo, y con qué otro instrumento se alinea?",
+    "opciones": ["Ajuste de la sensibilidad; se alinea con el horizonte artificial.", "Recalibración del sistema eléctrico; se alinea con el coordinador de giro.", "Reseteo o alineación con la brújula magnética."],
+    "correcta": 2
+  },
+  {
+    "texto": "En el contexto de los giróscopos de estado sólido (MEMS o ópticos), ¿qué característica fundamental de estos dispositivos permite una mayor robustez y una vida útil más prolongada en comparación con los giróscopos mecánicos tradicionales?",
+    "opciones": ["Su mayor tamaño y peso, que les confiere más inercia.", "La ausencia de partes móviles, lo que reduce el desgaste y la susceptibilidad a vibraciones externas.", "La necesidad de un suministro de aire comprimido constante."],
+    "correcta": 1
+  },
+  {
+    "texto": "En este bloque se describe la precesión como la capacidad de un giróscopo mecánico para \"detectar y medir pequeños cambios en la orientación\". ¿Qué acción debe realizarse sobre el giróscopo para inducir intencionalmente este fenómeno y así cambiar la orientación de su eje?",
+    "opciones": ["Aumentar la velocidad de rotación del rotor.", "Aplicar una fuerza tangencial a la llanta del rotor.", "Alterar la inclinación de los gimbals sin aplicar ninguna fuerza externa al rotor."],
+    "correcta": 1
+  }
+]

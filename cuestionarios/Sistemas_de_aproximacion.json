@@ -1,0 +1,92 @@
+[
+  {
+    "texto": "En el Sistema de Aterrizaje Instrumental (ILS), la desviación del eje de pista es indicada por el Localizador (LOC), que transmite dos señales moduladas a 90 Hz y 150 Hz. ¿Qué situación específica de diferencia de profundidad de modulación (DDM) detectaría el receptor de ILS para indicar que la aeronave está a la izquierda del eje de pista?",
+    "opciones": [
+      "Una DDM donde la modulación de 150 Hz predomina sobre la de 90 Hz.",
+      "Una DDM donde la modulación de 90 Hz predomina sobre la de 150 Hz.",
+      "Una DDM donde ambas modulaciones tienen igual profundidad."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "El Glide Slope (GS) del ILS proporciona guiado vertical. A diferencia del Localizador que opera en la banda VHF, ¿en qué banda de frecuencia opera el Glide Slope, y por qué esta elección de banda es crítica para su función de proporcionar una senda de planeo precisa?",
+    "opciones": [
+      "Opera en la banda UHF; porque permite un haz más estrecho y una menor susceptibilidad a las reflexiones del terreno.",
+      "Opera en la banda HF; porque tiene un mayor alcance y es menos afectado por la atmósfera.",
+      "Opera en la banda LF; porque es inmune a las interferencias electromagnéticas."
+    ],
+    "correcta": 0
+  },
+  {
+    "texto": "Las categorías del sistema ILS (CAT I, II, IIIa, IIIb, IIIc) se definen por los mínimos de visibilidad y altura de decisión. ¿Qué capacidad operacional específica debe tener la tripulación para poder realizar una aproximación ILS CAT IIIc, y por qué esta categoría representa el nivel más alto de automatización y mínimos operacionales?",
+    "opciones": [
+      "Capacidad para operar con una visibilidad horizontal de 800 metros y una altura de decisión de 60 metros.",
+      "Capacidad para realizar una aproximación y aterrizaje sin visibilidad exterior (cero/cero), sin requerir altura de decisión.",
+      "Capacidad para realizar la aproximación de forma manual con ayuda de instrumentos básicos."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "El ILS utiliza balizas (markers) para indicar puntos críticos a lo largo de la senda de aproximación. Si una aeronave sobrevuela el \"Outer Marker\" (OM), ¿qué color de luz se iluminaría en cabina y cuál es la frecuencia de la señal de modulación de audio asociada a esta baliza?",
+    "opciones": [
+      "Luz ámbar con una modulación de 1300 Hz.",
+      "Luz blanca con una modulación de 3000 Hz.",
+      "Luz azul con una modulación de 400 Hz."
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "A pesar de su amplia adopción, el sistema ILS presenta ciertas limitaciones. ¿Qué tipo de error en la señal del Localizador puede ocurrir si existen obstrucciones (como hangares o terreno irregular) cerca del aeropuerto, y cómo se manifiesta este error en la aguja del indicador de desviación de curso?",
+    "opciones": [
+      "Errores de \"scalloping\" (festoneado); se manifiesta como oscilaciones o movimientos erráticos de la aguja.",
+      "Errores de fase; la aguja se mantiene permanentemente desviada a un lado.",
+      "Errores de deriva; la aguja se mueve lentamente sin un patrón definido."
+    ],
+    "correcta": 0
+  },
+  {
+    "texto": "El Microwave Landing System (MLS) fue diseñado para superar algunas limitaciones del ILS. ¿Qué ventaja fundamental ofrece el MLS en términos de flexibilidad en las sendas de aproximación, y cómo logra esta capacidad?",
+    "opciones": [
+      "Permite únicamente una senda de planeo de 3 grados fija, pero con mayor precisión.",
+      "Permite múltiples ángulos de senda de planeo y trayectorias de aproximación curvas; utilizando señales de barrido angular que miden el tiempo de llegada.",
+      "Se basa en la reflexión de señales de satélite para ajustar la senda de planeo."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "El MLS utiliza señales de tiempo de escaneo para determinar la posición angular de la aeronave. ¿Cómo se mide la posición de la aeronave con respecto a un haz de barrido horizontal o vertical en el MLS, y qué parámetro clave se deriva de esta medición?",
+    "opciones": [
+      "Mediante la intensidad de la señal recibida; se deriva la distancia al transmisor.",
+      "Midiendo el tiempo transcurrido entre la recepción de los pulsos \"TO\" y \"FRO\" del haz de barrido; se deriva el ángulo de la aeronave.",
+      "Por el desplazamiento Doppler de la señal; se deriva la velocidad relativa."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "El DME/P (DME de Precisión) asociado al MLS proporciona una resolución de distancia superior. ¿Qué tipo de pulsos utiliza el DME/P para alcanzar una resolución de distancia de hasta 30 metros, y por qué esta precisión es esencial para las aproximaciones CAT II y CAT III?",
+    "opciones": [
+      "Pulsos de mayor duración para una detección más robusta.",
+      "Pulsos de doble frecuencia para compensar los errores atmosféricos.",
+      "Pulsos de ancho muy estrecho y alta repetición; para mediciones de tiempo de vuelo extremadamente precisas requeridas en baja visibilidad."
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "A pesar de sus capacidades técnicas avanzadas, el MLS no logró reemplazar al ILS a gran escala en la aviación civil. ¿Cuál fue la razón principal de esta falta de consolidación, según el texto?",
+    "opciones": [
+      "Su alto costo de mantenimiento en comparación con el ILS.",
+      "La implementación del MLS coincidió con el auge de los sistemas de navegación satelital (GNSS con aumentaciones).",
+      "Problemas de compatibilidad electromagnética con otros sistemas a bordo de las aeronaves."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "El sistema ILS proporciona información lateral y vertical mediante la comparación de DDM de señales de 90 Hz y 150 Hz. ¿Qué sucede con la DDM recibida por la aeronave cuando esta se encuentra exactamente sobre la senda de planeo ideal, y cómo se representa esto en la unidad de presentación en cabina?",
+    "opciones": [
+      "La DDM es máxima; la aguja de desviación vertical se mueve hacia arriba.",
+      "La DDM es cero; la aguja de desviación vertical se centra.",
+      "La DDM es mínima pero no cero; la aguja de desviación vertical se mueve hacia abajo."
+    ],
+    "correcta": 1
+  }
+]

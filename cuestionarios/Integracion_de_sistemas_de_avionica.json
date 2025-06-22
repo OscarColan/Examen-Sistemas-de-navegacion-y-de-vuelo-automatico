@@ -1,0 +1,92 @@
+[
+  {
+    "texto": "En el contexto de la reducción del cableado en aeronaves modernas, ¿cuál es la razón fundamental por la que los 'buses aviónicos' se han vuelto indispensables, y qué principio de interconexión digital subyace a su eficacia para este propósito?",
+    "opciones": [
+      "Permiten el uso de cables coaxiales de menor diámetro; su principio es la multiplexación por división de tiempo.",
+      "Sustituyen las conexiones punto a punto dedicadas por una infraestructura compartida, donde múltiples dispositivos transmiten y reciben datos; su principio es la serialización y compartición del medio.",
+      "Eliminan por completo la necesidad de cables físicos, utilizando transmisiones inalámbricas en su lugar."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "El bus de datos ARINC 429 es un estándar ampliamente utilizado en la aviación. ¿Qué característica clave de su 'arquitectura de conexión' contribuye directamente a su robustez y a la prevención de fallos críticos, incluso a expensas de la eficiencia en el uso de los hilos?",
+    "opciones": [
+      "Utiliza una configuración de bus multi-punto bidireccional que permite que cualquier dispositivo transmita a cualquier otro.",
+      "Emplea una conexión unidireccional (punto a punto) desde un transmisor a múltiples receptores, sin permitir que los receptores respondan, lo que aísla los fallos.",
+      "Se basa en una red en anillo con capacidad de auto-recuperación ante fallos de un nodo."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "En la 'Codificación de Línea' de las señales de los buses de datos, se mencionan las codificaciones RZ (Return-to-Zero) y NRZ (Non-Return-to-Zero). ¿Qué ventaja específica ofrece la codificación RZ sobre la NRZ para la sincronización del reloj en el receptor, a pesar de requerir un ancho de banda mayor?",
+    "opciones": [
+      "RZ permite transmitir el doble de bits por unidad de tiempo.",
+      "RZ garantiza que haya una transición de voltaje en cada bit, facilitando la extracción del reloj de la señal.",
+      "RZ es inmune al ruido de baja frecuencia."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "El bus ARINC 429 especifica un formato de palabra de 32 bits. ¿Qué información crucial contiene el 'Label Field' (Etiqueta) de esta palabra, y por qué es esencial para que los receptores puedan procesar selectivamente los datos en un bus donde múltiples fuentes transmiten?",
+    "opciones": [
+      "Indica la dirección física del receptor al que se destina la palabra.",
+      "Identifica el tipo de datos que contiene la palabra (ej. altitud, velocidad, rumbo), permitiendo a los receptores filtrar la información relevante.",
+      "Contiene el valor numérico del dato transmitido."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "En la 'Tasa de Transmisión' de los buses de datos, el texto diferencia entre la velocidad baja (12 a 14.5 kbps) y la alta (100 kbps). ¿Cuál es la principal justificación para el uso de la velocidad baja en ciertas aplicaciones de ARINC 429, más allá de la simple optimización de la capacidad del cableado?",
+    "opciones": [
+      "Es necesaria para asegurar la compatibilidad con sistemas analógicos antiguos.",
+      "Permite una mayor inmunidad al ruido en entornos eléctricamente ruidosos.",
+      "Se utiliza para sistemas donde la actualización de datos no requiere alta frecuencia y para reducir el consumo de energía."
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "El bus ARINC 664, también conocido como AFDX (Avionics Full-Duplex Switched Ethernet), representa un cambio fundamental con respecto a ARINC 429. ¿Qué concepto de red introduce ARINC 664 que es crucial para garantizar la 'determinismo' y 'latencia controlada' en una red Ethernet compartida, esencial para las aplicaciones críticas de vuelo?",
+    "opciones": [
+      "Utiliza la difusión de paquetes a todos los nodos conectados, optimizando el ancho de banda.",
+      "Introduce el concepto de 'Virtual Links' (VL) con un ancho de banda dedicado y garantizado para asegurar un comportamiento predecible.",
+      "Se basa en una topología en estrella con un único punto central de fallo."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "En un bus de datos tipo 'Multidrop', ¿cuál es la implicación principal de que el medio de transmisión sea compartido por múltiples dispositivos en términos de control de acceso al bus, y qué tipo de colisiones de datos pueden ocurrir si no se gestiona adecuadamente?",
+    "opciones": [
+      "No se requieren mecanismos de control de acceso, ya que todos los dispositivos pueden transmitir simultáneamente.",
+      "Solo un dispositivo puede transmitir a la vez, y pueden ocurrir colisiones si varios intentan transmitir al mismo tiempo.",
+      "Los datos se transmiten en paralelo a todos los dispositivos, eliminando las colisiones."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "El 'checksum' es un mecanismo de detección de errores utilizado en el bus ARINC 429. ¿Cuál es el propósito específico del checksum al final de cada palabra de datos, y qué tipo de errores de transmisión es capaz de detectar?",
+    "opciones": [
+      "Permite corregir automáticamente cualquier bit erróneo en la palabra.",
+      "Asegura que la paridad de la palabra sea siempre par, detectando un número impar de errores de bit.",
+      "Reconstruye la palabra completa si se pierden algunos bits durante la transmisión."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Además de los datos numéricos y de estado, ¿qué tipo de información de 'notificación' (Status Matrix) se incluye en las palabras ARINC 429 para informar al receptor sobre la validez y el contexto de los datos transmitidos?",
+    "opciones": [
+      "Información sobre el fabricante del equipo que generó el dato.",
+      "Indicadores de validez de los datos (e.g., normal, no calculado, test, fallo) y la condición operativa del transmisor.",
+      "Mensajes de texto libres para la comunicación entre la tripulación y el centro de mantenimiento."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "El texto menciona que los buses ARINC 664 (AFDX) ofrecen 'fiabilidad mediante redundancia'. ¿Cómo se implementa esta redundancia en AFDX para asegurar la continuidad de la comunicación en caso de fallo de un componente, y qué principio de diseño subyace a esta estrategia?",
+    "opciones": [
+      "Se utiliza un único bus de alta velocidad que se reconfigura automáticamente.",
+      "Se emplean redes duplicadas (Redundant Networks) con cables y switches separados, asegurando rutas de comunicación alternativas.",
+      "Cada dispositivo tiene su propia fuente de alimentación redundante para evitar fallos."
+    ],
+    "correcta": 1
+  }
+]

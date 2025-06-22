@@ -1,0 +1,93 @@
+[
+  {
+    "texto": "En los sistemas de Radiogoniometría (RDF), la antena de cuadro se utiliza para determinar la dirección de la señal. ¿Qué fenómeno electromagnético específico causa la variación en la tensión inducida en la antena de cuadro al girar, permitiendo así la detección de la dirección de la fuente?",
+    "opciones": [
+      "La polarización de la onda electromagnética emitida por el NDB.",
+      "La variación del flujo magnético a través del área del cuadro cuando su plano es perpendicular o paralelo a la onda incidente.",
+      "La dispersión de la onda al interactuar con el material conductor del cuadro."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "Las Radiobalizas No Direccionales (NDB) operan en las bandas LF y MF y, según el texto, pueden ser afectadas por el \"efecto noche\" o \"night effect\". ¿Cuál es la causa física subyacente de este efecto y cómo impacta en la precisión del rumbo indicado por el ADF a bordo de la aeronave?",
+    "opciones": [
+      "La interferencia de señales de radioaficionados; causa una desviación constante del rumbo.",
+      "La propagación de la onda por la capa ionosférica, que se vuelve más reflexiva, generando ondas celestes que interfieren con la onda terrestre y producen oscilaciones del rumbo.",
+      "La absorción de la señal por la humedad atmosférica; causa una pérdida intermitente de la señal."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "El sistema OMEGA, aunque ya obsoleto, se basaba en el método hiperbólico para la determinación de posición. ¿Qué característica fundamental del sistema de sincronización temporal entre las estaciones transmisoras OMEGA era crucial para la precisión de la intersección de las líneas de posición hiperbólicas?",
+    "opciones": [
+      "El uso de relojes atómicos de rubidio en cada estación para una sincronización aproximada.",
+      "El control de la señal mediante relojes de cesio altamente estables, asegurando una sincronización precisa con UTC.",
+      "La transmisión de una señal de referencia de fase única desde una estación maestra central."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "A diferencia de los NDBs que emiten señales omnidireccionales, ¿qué tipo de antena receptora es indispensable para un Localizador Automático de Dirección (ADF) para permitirle discriminar la dirección de llegada de la señal, y cómo se compensa la ambigüedad de 180 grados?",
+    "opciones": [
+      "Una antena dipolo vertical simple; la ambigüedad se resuelve con un filtro de frecuencia.",
+      "Una antena de cuadro rotatoria junto con una antena omnidireccional (sensible) para resolver la ambigüedad.",
+      "Una antena parabólica direccional; la ambigüedad se resuelve por comparación de fase."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "El sistema LORAN-C, también un sistema hiperbólico, operaba en la banda LF y utilizaba grupos de cadenas de estaciones. ¿Qué técnica específica empleaba LORAN-C para permitir a un receptor distinguir las señales de cada estación dentro de una cadena y así calcular las diferencias de tiempo de llegada con alta precisión?",
+    "opciones": [
+      "La modulación de fase de la señal portadora para cada estación.",
+      "La emisión de pulsos sincronizados con un patrón temporal único para cada estación de la cadena.",
+      "La variación de la amplitud de la señal según la estación emisora."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "En los radiogoniómetros automáticos (ADF), la aguja indicadora apunta directamente a la estación NDB. ¿Qué mecanismo interno permite que el ADF determine la diferencia de fase entre las señales de las antenas de cuadro y omnidireccional para calcular el rumbo, y cómo se presenta esto en la cabina?",
+    "opciones": [
+      "Un microprocesador calcula la posición GPS y la correlaciona con la señal NDB.",
+      "Un servo-mecanismo que gira la antena de cuadro hasta que la señal sea mínima, y luego la aguja muestra esa dirección.",
+      "Un \"goniometer\" (fasímetro) que mide la diferencia de fase entre las señales de ambas antenas, lo cual se convierte en la posición angular de la aguja."
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "El alcance de las Radiobalizas No Direccionales (NDB) se ve afectado por la potencia de transmisión y la banda de frecuencia. ¿Qué característica específica de la propagación de ondas en las bandas LF/MF permite que los NDBs tengan un alcance relativamente largo, a pesar de las limitaciones de línea de vista?",
+    "opciones": [
+      "La capacidad de estas ondas para penetrar el terreno y seguir la curvatura de la Tierra a través de la onda terrestre.",
+      "Su alta sensibilidad a la ionosfera, lo que permite múltiples saltos de onda espacial.",
+      "La mínima atenuación en la atmósfera a esas frecuencias."
+    ],
+    "correcta": 0
+  },
+  {
+    "texto": "En este bloque se menciona que el sistema OMEGA utilizaba antenas con una \"sintonización de antena\" que ajustaba la impedancia mediante variómetros y bobinas helicoidales. ¿Cuál era el objetivo primordial de esta compleja sintonización en estaciones tan grandes y con frecuencias tan bajas?",
+    "opciones": [
+      "Reducir el consumo de energía del transmisor a niveles mínimos.",
+      "Minimizar las interferencias con otras estaciones de radio cercanas.",
+      "Maximizar la potencia radiada de la antena, adaptándola a la frecuencia de transmisión para una cobertura de larga distancia."
+    ],
+    "correcta": 2
+  },
+  {
+    "texto": "Además de la brújula magnética a bordo, ¿cuál es la ventaja crítica que un sistema ADF proporciona a un piloto para la navegación, especialmente en condiciones de baja visibilidad o sobre el agua, que la brújula por sí sola no puede ofrecer?",
+    "opciones": [
+      "La velocidad y altitud del viento en tiempo real.",
+      "La dirección relativa a una estación terrestre específica.",
+      "La distancia precisa a un punto geográfico predefinido."
+    ],
+    "correcta": 1
+  },
+  {
+    "texto": "A pesar de su capacidad para proporcionar navegación a larga distancia, ¿cuál es uno de los principales inconvenientes o fuentes de error del sistema LORAN-C, según el texto, en lo que respecta a la fiabilidad de la señal, especialmente en ciertas áreas geográficas?",
+    "opciones": [
+      "La susceptibilidad a las interferencias de las tormentas eléctricas y la alta latitud (\"polar cap absorption\").",
+      "La necesidad de tener una línea de vista directa entre la aeronave y todas las estaciones.",
+      "La saturación del espectro de frecuencias debido a la alta densidad de estaciones."
+    ],
+    "correcta": 0
+  }
+]
+
