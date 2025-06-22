@@ -2,13 +2,13 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title id="titulo-pestana">Examen de Autoevaluación</title>
+  <title>Examen de Autoevaluación</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1 id="titulo-examen">Examen</h1>
+  <h1 id="tituloExamen">Examen</h1>
 
-  <div id="temporizador" style="font-size: 1.5em; font-weight: bold; margin-bottom: 20px;">
+  <div id="temporizador" style="font-size: 1.5em; font-weight: bold; margin-bottom: 20px; color: #c00;">
     10:00
   </div>
 
@@ -17,29 +17,16 @@
   <p id="resultado"></p>
 
   <script>
-    const nombresBonitos = {
-      Comunicaciones_por_radio: "Comunicaciones por Radio",
-      Integracion_de_sistemas_de_avionica: "Integración de Sistemas de Aviónica",
-      Primeras_ayudas_a_la_navegacion: "Primeras Ayudas a la Navegación",
-      Sistemas_datos_de_aire: "Sistemas de Datos de Aire",
-      Sistemas_de_aproximacion: "Sistemas de Aproximación",
-      Sistemas_de_direccion_y_distancia: "Sistemas de Dirección y Distancia",
-      Sistemas_de_navegacion_inercial: "Sistemas de Navegación Inercial",
-      Sistemas_de_navegacion_RADAR: "Sistemas de Navegación RADAR",
-      Sistemas_de_navegacion_por_satelite: "Sistemas de Navegación por Satélite",
-      Sistemas_de_control_de_vuelo_automatico: "Sistemas de Control de Vuelo Automático"
-    };
-
+    // Este fragmento actualiza el título del examen
     const params = new URLSearchParams(window.location.search);
     const archivo = params.get("cuestionario");
-
-    if (archivo && nombresBonitos[archivo]) {
-      const titulo = `Examen: ${nombresBonitos[archivo]}`;
-      document.getElementById("titulo-examen").textContent = titulo;
-      document.title = titulo;
+    if (archivo) {
+      const nombreBonito = archivo
+        .replace(/_/g, ' ')
+        .replace(/\b\w/g, l => l.toUpperCase());
+      document.getElementById("tituloExamen").textContent = `Examen: ${nombreBonito}`;
     }
   </script>
-
   <script src="script.js"></script>
 </body>
 </html>
