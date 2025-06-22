@@ -1,23 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <title>Examen de Autoevaluación</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Selecciona un Examen</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f2f2f2;
+    }
+    h1 {
+      color: #333;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+    }
+    a {
+      text-decoration: none;
+      background-color: #0066cc;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+    a:hover {
+      background-color: #004a99;
+    }
+  </style>
 </head>
 <body>
-  <h1>Examen</h1>
-
-  <!-- Este div debe estar antes del script.js -->
-  <div id="temporizador" style="font-size: 1.5em; font-weight: bold; margin-bottom: 20px;">
-    10:00
-  </div>
-
-  <div id="preguntas"></div>
-  <button>Enviar respuestas</button>
-  <p id="resultado"></p>
-
-  <!-- script al final, cuando todo el DOM ya está cargado -->
-  <script src="script.js"></script>
+  <h1>Selecciona un examen para comenzar</h1>
+  <ul>
+    <li><a href="examen.html?cuestionario=Comunicaciones_por_radio">Comunicaciones por Radio</a></li>
+    <li><a href="examen.html?cuestionario=Integracion_de_sistemas_de_avionica">Integración de Sistemas de Aviónica</a></li>
+    <li><a href="examen.html?cuestionario=Primeras_ayudas_a_la_navegacion">Primeras Ayudas a la Navegación</a></li>
+    <li><a href="examen.html?cuestionario=Sistemas_datos_de_aire">Sistemas de Datos de Aire</a></li>
+    <li><a href="examen.html?cuestionario=Sistemas_de_aproximacion">Sistemas de Aproximación</a></li>
+    <li><a href="examen.html?cuestionario=Sistemas_de_direccion_y_distancia">Sistemas de Dirección y Distancia</a></li>
+    <li><a href="examen.html?cuestionario=Sistemas_de_navegacion_inercial">Sistemas de Navegación Inercial</a></li>
+    <li><a href="examen.html?cuestionario=Sistemas_de_navegacion_RADAR">Sistemas de Navegación RADAR</a></li>
+    <li><a href="examen.html?cuestionario=Sistemas_de_navegacion_por_satelite">Sistemas de Navegación por Satélite</a></li>
+    <li><a href="examen.html?cuestionario=Sistemas_de_control_de_vuelo_automatico">Sistemas de Control de Vuelo Automático</a></li>
+  </ul>
 </body>
 </html>
