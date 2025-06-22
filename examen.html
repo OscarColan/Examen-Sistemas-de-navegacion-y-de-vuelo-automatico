@@ -6,9 +6,10 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1 id="tituloExamen">Examen</h1>
+  <h1>Examen</h1>
 
-  <div id="temporizador" style="font-size: 1.5em; font-weight: bold; margin-bottom: 20px; color: #c00;">
+  <!-- Este div debe estar antes del script.js -->
+  <div id="temporizador" style="font-size: 1.5em; font-weight: bold; margin-bottom: 20px;">
     10:00
   </div>
 
@@ -16,17 +17,7 @@
   <button>Enviar respuestas</button>
   <p id="resultado"></p>
 
-  <script>
-    // Este fragmento actualiza el título del examen
-    const params = new URLSearchParams(window.location.search);
-    const archivo = params.get("cuestionario");
-    if (archivo) {
-      const nombreBonito = archivo
-        .replace(/_/g, ' ')
-        .replace(/\b\w/g, l => l.toUpperCase());
-      document.getElementById("tituloExamen").textContent = `Examen: ${nombreBonito}`;
-    }
-  </script>
+  <!-- script al final, cuando todo el DOM ya está cargado -->
   <script src="script.js"></script>
 </body>
 </html>
