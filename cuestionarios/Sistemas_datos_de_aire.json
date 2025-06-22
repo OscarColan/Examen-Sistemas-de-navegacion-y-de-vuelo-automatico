@@ -45,7 +45,7 @@
     "correcta": 1
   },
   {
-    "texto": "¿Qué consecuencia inmediata puede tener una discrepancia detectada entre las múltiples ADC de una aeronave, según lo descrito en el documento?",
+    "texto": "¿Qué consecuencia inmediata puede tener una discrepancia detectada entre las múltiples ADC de una aeronave?",
     "opciones": ["Se activa un sistema de apagado de emergencia de los motores.", "El sistema avisa al piloto o, de forma automática, cambia su modo de funcionamiento.", "Se desactiva el piloto automático de forma irrevocable."],
     "correcta": 1
   }

@@ -26,7 +26,7 @@
   },
   {
     "texto": "En los giróscopos ópticos de anillo (RLG), la diferencia de fase o frecuencia de los haces de luz contrarrotatorios se utiliza para detectar la rotación. ¿Qué fenómeno físico subyacente es directamente responsable de esta diferencia cuando el giróscopo experimenta rotación?",
-    "opciones": ["El efecto Doppler, que altera la frecuencia de la luz según la velocidad del espejo.", "El efecto Sagnac, que provoca una diferencia en la distancia o tiempo de recorrido de los haces en un bucle cerrado en rotación.", "El desplazamiento de fase (&Delta &phi) entre los haces de luz."],
+    "opciones": ["El efecto Doppler, que altera la frecuencia de la luz según la velocidad del espejo.", "El efecto Sagnac, que provoca una diferencia en la distancia o tiempo de recorrido de los haces en un bucle cerrado en rotación.", "El desplazamiento de fase (&Delta; &phi;) entre los haces de luz."],
     "correcta": 2
   },
   {
